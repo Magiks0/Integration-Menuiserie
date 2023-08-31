@@ -1,0 +1,385 @@
+@font-face
+{
+    font-family: 'Poppins';
+    src: url('assets/Poppins-Medium.ttf'); /* IE9 Compat Modes */
+}
+
+
+*{
+    font-family:'Poppins';
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    background-image: url('https://menuiserie2ds.fr/wp-content/uploads/2023/06/parallax-5.jpg');
+    background-size: cover;
+}
+
+.infos{
+    background:#765f4dd2;
+    color: #fff;
+}
+
+.info{
+    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 55%;
+}
+
+.info a{
+    color: white !important ;
+}
+
+.telEmail{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.tel, .email{
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+
+.tel:hover, .email:hover{
+    cursor: pointer;
+}
+
+.tel i, .email i{
+    padding: 0 10px 0 0px;
+}
+
+.project{
+    right: 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1em;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 12px 15px 12px 15px;
+    margin-left: 15px;
+    width: 12%;
+}
+
+.project:hover{
+    cursor: pointer;
+    background: #624d3d;
+    transition: 0.5s;
+}
+
+
+.navbar{
+    height: 95px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.links{
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 55%;
+
+}
+
+.link{
+    padding: 15px;
+}
+
+.link a{
+    color: #4A3827;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.link a:hover{
+    color: #7D654EA8;
+    transition: .5s;
+}
+
+.presentation{
+    height: 86vh;
+    background-image: url(assets/IMG-4176-scaled.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.allContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #7D654EA8;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+}
+
+.content .title{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding:30px
+}
+
+.content .paragraph{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.expertise{
+    margin-top: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.expertise .contain1, .contain3{
+    width: 21%;
+}
+
+.expertise .contain1 .reals{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 20px 75px 20px;
+}
+
+.expertise .contain1 .reals img{
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.expertise .contain1 .reals h1{
+    color: rgb(74, 56, 39);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.expertise .contain1 .reals p{
+    color: #4a3827;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: right;
+    font-weight: lighter;
+    white-space-collapse: preserve;
+}
+
+.expertise .contain1 .reals a{
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+    background: #7D654E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2px;
+    border-radius: 40px;
+}
+
+.expertise .contain1 .reals a:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background: #a89787;
+}
+
+
+
+
+
+
+.expertise .contain3 .reals{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 20px 75px 20px;
+}
+
+.expertise .contain3 .reals img{
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.expertise .contain3 .reals h1{
+    color: rgb(74, 56, 39);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.expertise .contain3 .reals p{
+    color: #4a3827;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: left;
+    white-space-collapse:preserve;
+    margin-bottom: 20px;
+}
+
+.expertise .contain3 .reals a{
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+    background: #7D654E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2px;
+    border-radius: 40px;
+}
+
+.expertise .contain3 .reals a:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background: #a89787;
+}
+
+
+
+.expertise .contain2{
+    display: flex;
+    background-image: url(assets/IMG_4266-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    width: 20%;
+}
+
+.expertise .contain2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00000052;
+    width: 100%;
+    height: 100%;
+}
+
+.expertise .contain2 .text p{
+    font-size: 25px;
+
+}
+
+.expertise .contain2 .text h1{
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+
+
+.parallax{
+    margin-top: -160px;
+    height: auto;
+    color: #fff;
+}
+
+.parallax img{
+    width: 15%;
+}
+
+.parallax .container{
+    background: #4A3827;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.first, .second, .third{
+    width: 100%;
+    
+}
+
+.parallax .container .first{
+    background-image: url(assets/parallax-4.jpg);
+    background-size: cover;
+}
+
+.parallax .container .second{
+    background-image: url(assets/parallax-3.jpg);
+    background-size: cover;
+}
+
+.parallax .container .third{
+    background-image: url(assets/parallax-2.jpg);
+    background-size: cover;
+}
+
+.first div , .second div, .third div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7d654ec9;
+    padding: 68px 68px 68px 68px;
+}
+
+.first div h1, .second div h1, .third div h1{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.first div a, .second div a, .third div a{
+    text-decoration: none;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border-bottom: solid 2px #fff;
+    padding: 0px 2px 4px 2px;   
+}
+
+.first div a:hover, .second div a:hover, .third div a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
