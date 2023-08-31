@@ -363,6 +363,7 @@ header{
     line-height: 1em;
     letter-spacing: 1px;
     padding: 20px;
+    text-align: center;
 }
 
 .first div a, .second div a, .third div a{
